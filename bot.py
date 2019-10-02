@@ -70,7 +70,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://aqueous-tor-74139.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://fast-ocean-99547.herokuapp.com/' + TOKEN)
     return "!", 200
 
 	
